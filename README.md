@@ -17,7 +17,7 @@
 ### number of images per species and keypoint definition
 
 <p align="center">
-<img src="overview_images/Figure 2.png" width="1300">
+<img src="overview_images/keypoints.jpg" width="1000">
 </p>
 
 <table div align=left>
