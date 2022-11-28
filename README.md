@@ -17,7 +17,7 @@
 ### number of images per species and keypoint definition
 
 <p align="center">
-<img src="overview_images/Figure 2.pdf" width="700">
+<img src="overview_images/keypoints.jpg" width="1000">
 </p>
 
 <table div align=left>
@@ -57,7 +57,7 @@
 
 ### Annotations Overview
 <p align="center">
-<img src="overview_images/collage.png" width="700">
+<img src="overview_images/collage.png" width="1300">
 </p>
 
 
