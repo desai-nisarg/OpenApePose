@@ -50,7 +50,7 @@
 
 ### Keypoint definition
 
-<p align="left">We include 16 landmarks in the following order: Nose, Left eye, Right eye, Head, Neck, Left shoulder, Left elbow, Left wrist, Right shoulder, Right elbow, Right wrist, Hip/Sacrum, Left knee, Left foor, Right knee, Right foot </p>
+<p align="left">We include 16 landmarks in the following order: Nose, Left eye, Right eye, Head, Neck, Left shoulder, Left elbow, Left wrist, Right shoulder, Right elbow, Right wrist, Hip/Sacrum, Left knee, Left foot, Right knee, Right foot </p>
 <p align="center">
 <img src="overview_images/keypoints.jpg" width="500">
 </p>
