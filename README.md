@@ -13,6 +13,10 @@
 
 <p align="left">This repository contians the <a href='https://www.biorxiv.org/'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
 
+<p align="center">
+<img src="overview_images/collage.png" width="1300">
+</p>
+
 ## Overview
 
 <p align="left">The dataset includes species from the ape (<i>Hominoidea</i>) superfamily. This includes the great apes (<i>Hominidae</i> family) and the lesser apes, gibbons and siamangs (<i>Hylobatidae</i> family). Among the <i>Hominidae</i>, we include four species: bonobos (<i>Pan paniscus</i>), chimpanzees (<i>Pan troglodytes</i>), gorillas (<i>Gorilla gorilla</i>), and orangutans (<i>Pongo sp.</i>). Among the gibbons we separate the siamangs (<i>Symphalangus syndactylus</i>) but include other species under the "gibbon" label. Below is the number of images from each of these species.  </p>
@@ -49,13 +53,6 @@
 <p align="left">We include 16 landmarks in the following order: Nose, Left eye, Right eye, Head, Neck, Left shoulder, Left elbow, Left wrist, Right shoulder, Right elbow, Right wrist, Hip/Sacrum, Left knee, Left foor, Right knee, Right foot </p>
 <p align="center">
 <img src="overview_images/keypoints.jpg" width="500">
-</p>
-
-
-
-### Overview of annotations
-<p align="center">
-<img src="overview_images/collage.png" width="1300">
 </p>
 
 
