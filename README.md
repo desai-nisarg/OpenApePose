@@ -15,7 +15,7 @@
 
 ## Overview
 
-<p align="left">The dataset includes species from the ape (<i>Hominoidea</i>) superfamily. This includes the great apes (<i>Hominidae</i> family) and the lesser apes, gibbons and siamangs (<i>Hylobatidae</i> family). Among the <i>Hominidae</i>, we include four species: bonobos (<i>Pan paniscus</i>), chimpanzees (<i>Pan troglodytes</i>), gorillas (<i>Gorilla gorilla</i>), and orangutans (<i>Pongo sp.</i>). Among the Gibbons we separate the siamangs <i>Symphalangus syndactylus</i> but include other species under the "gibbon" label. Below is the number of images from each of these species.  </p>
+<p align="left">The dataset includes species from the ape (<i>Hominoidea</i>) superfamily. This includes the great apes (<i>Hominidae</i> family) and the lesser apes, gibbons and siamangs (<i>Hylobatidae</i> family). Among the <i>Hominidae</i>, we include four species: bonobos (<i>Pan paniscus</i>), chimpanzees (<i>Pan troglodytes</i>), gorillas (<i>Gorilla gorilla</i>), and orangutans (<i>Pongo sp.</i>). Among the gibbons we separate the siamangs (<i>Symphalangus syndactylus</i>) but include other species under the "gibbon" label. Below is the number of images from each of these species.  </p>
 
 ### Number of images per species
 
