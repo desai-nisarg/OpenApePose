@@ -18,37 +18,25 @@
 
 <p>
 <table div align=left>
-<thead>
-  <tr>
-    <th>Species</th>
-    <th>Images</th>
-  </tr>
-</thead>
+  
 <tbody>
   <tr>
+    <td><b>Species</b></td
     <td>Bonobos</td>
-    <td>11,685</td>
-  </tr>
-  <tr>
     <td>Chimpanzees</td>
-    <td>18,010</td>
-  </tr>
-  <tr>
     <td>Gibbons</td>
-    <td>9,274</td>
-  </tr>
-  <tr>
     <td>Gorillas</td>
-    <td>12,905</td>
-  </tr>
-  <tr>
     <td>Orangutans</td>
-    <td>12,722</td>
+    <td>Siamangs</td>
   </tr>
   <tr>
-    <td>Siamangs</td>
+    <td><b>Images</b></td>
+    <td>11,685</td>
+    <td>18,010</td>
+    <td>9,274</td>
+    <td>12,905</td>
+    <td>12,722</td>
     <td>7,272</td>
-  </tr>
 </tbody>
 </table>
 <img src="overview_images/keypoints.jpg" width="500">
