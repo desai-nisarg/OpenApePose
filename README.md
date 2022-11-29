@@ -87,23 +87,26 @@ The downloaded dataset would look as follows:
 
 ```text
 {
-"data": [
-{ 
-"file":   str, 
-"species":   str, 
-"bbox":   [x, y, width, height], 
-"landmarks":   [x1,y1, ...,x16,y16],
-"visibility":   [v1,v2,...,v16]
-},
-{ 
-"file":   str, 
-"species":   str, 
-"bbox":   [x, y, width, height], 
-"landmarks":   [x1,y1, ...,x16,y16],
-"visibility":   [v1,v2,...,v16]
-},
-....
-]
+  "data": [
+    { 
+    "file":   str, 
+    "species":   str, 
+    "bbox":   [x, y, width, height], 
+    "landmarks":   [x1,y1, ...,x16,y16],
+    "visibility":   [v1,v2,...,v16]
+    },
+    
+    { 
+    "file":   str, 
+    "species":   str, 
+    "bbox":   [x, y, width, height], 
+    "landmarks":   [x1,y1, ...,x16,y16],
+    "visibility":   [v1,v2,...,v16]
+    },
+    
+  ....
+  
+  ]
 }
 ```
 <p align="left">Within each JSON file, all the annotations are included in the "data" tag. Each annotation contains the following tags: "file", "species", "bbox", "landmarks", and "visibility". "file" specifies the name of the file in the images folder. "species" specifies the species of the individual ape in the bounding box that is annotated. "bbox" specifies a bounding box in the image that contains the annotated ape. The bounding box format used is [x,y,width,height] where [x,y] specifies the x and y corridnate of the top-left of the bounding box, width specifies the width of the bounding box in pixels, and height specifies the height of the bounding box in pixels. "landmarks" specifies the x and y coordinates of the 16 landmarks in the order specified above. "visibility" specifies whether a given landmark is occluded (0) or visible (1).
