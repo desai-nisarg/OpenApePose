@@ -74,7 +74,7 @@ The downloaded dataset would look as follows:
     │   |-- oap_test.json
     │   |-- oap_train.json
     │   |-- oap_val.json
-    │-- data
+    │-- images
     │   │-- 00001_oap.JPG
     │   │-- 00002_oap.jpg
     │   │-- ...
