@@ -39,8 +39,10 @@
     <td>7,272</td>
 </tbody>
 </table>
+</p>
 
 ### Keypoint definition
+<p>
 <img src="overview_images/keypoints.jpg" width="500">
 </p>
 
