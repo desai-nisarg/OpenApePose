@@ -40,7 +40,7 @@
 </tbody>
 </table>
 
-###keypoint definition
+### Keypoint definition
 <img src="overview_images/keypoints.jpg" width="500">
 </p>
 
@@ -56,12 +56,12 @@
 ## Download
 
 The dataset can be downloaded from <a href='#download'>Download</a> 
+<a href='https://drive.google.com/drive/folders/1bEXBHoPgmUPOWB898tXTHJznzGpAucOG?usp=share_link'>[Google Drive]</a> <a href='https://umn.box.com/s/1kgz8had6tvvzb5c0xhdfdky0xcjoq7m'>[Box]</a>
 
 The downloaded dataset would look as follows:
 
 ```text
-OpenApePose
-|── data
+|── OpenApePose
     │-- annotations
     │   │-- oap_all.json
     │   |-- oap_train.json
@@ -72,7 +72,35 @@ OpenApePose
 
 ```
 
+## Annotation format
+
+```text
+{
+"data": [
+{ 
+"file":   str, 
+"species":   str, 
+"bbox":   [x, y, width, height], 
+"landmarks":   [x1,y1, ...,x16,y16],
+"visibility":   [v1,v2,...,v16]
+},
+{ 
+"file":   str, 
+"species":   str, 
+"bbox":   [x, y, width, height], 
+"landmarks":   [x1,y1, ...,x16,y16],
+"visibility":   [v1,v2,...,v16]
+},
+....
+]
+}
+```
+
 
 ## License
 
 The dataset follows CC-BY-4.0 license.
+
+## Cite as
+Desai, N., Bala, P., Richardson, R., Raper, J., Zimmermann, J., & Hayden, B. (2022). OpenApePose: a database of annotated 
+ape photographs for pose estimation.
