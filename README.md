@@ -21,7 +21,7 @@
   
 <tbody>
   <tr>
-    <td><b>Species</b></td
+    <td><b>Species</b></td>
     <td>Bonobos</td>
     <td>Chimpanzees</td>
     <td>Gibbons</td>
