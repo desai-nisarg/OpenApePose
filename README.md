@@ -90,19 +90,19 @@ The downloaded dataset would look as follows:
   "data": [
   
     { 
-    "file":   str, 
-    "species":   str, 
-    "bbox":   [x, y, width, height], 
-    "landmarks":   [x1,y1, ...,x16,y16],
-    "visibility":   [v1,v2,...,v16]
+      "file":   str, 
+      "species":   str, 
+      "bbox":   [x, y, width, height], 
+      "landmarks":   [x1,y1, ...,x16,y16],
+      "visibility":   [v1,v2,...,v16]
     },
     
     { 
-    "file":   str, 
-    "species":   str, 
-    "bbox":   [x, y, width, height], 
-    "landmarks":   [x1,y1, ...,x16,y16],
-    "visibility":   [v1,v2,...,v16]
+      "file":   str, 
+      "species":   str, 
+      "bbox":   [x, y, width, height], 
+      "landmarks":   [x1,y1, ...,x16,y16],
+      "visibility":   [v1,v2,...,v16]
     },
     
   ....
