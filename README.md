@@ -4,8 +4,9 @@
 <p align="center">
   <a href="#introduction">Introduction</a> |
   <a href="#Overview">Overview</a> |
-  <a href="#download">Download</a> |
-  <a href="#license">License</a> 
+  <a href="#Download">Download</a> |
+  <a href="#Annotation format">Annotation format</a> |
+  <a href="#License">License</a> 
 </p>
 
 ## Introduction
@@ -42,7 +43,7 @@
 </p>
 
 ### Keypoint definition
-<p>
+<p align="center">
 <img src="overview_images/keypoints.jpg" width="500">
 </p>
 
@@ -57,7 +58,7 @@
 
 ## Download
 
-The dataset can be downloaded from <a href='#download'>Download</a> 
+The dataset can be downloaded from
 <a href='https://drive.google.com/drive/folders/1bEXBHoPgmUPOWB898tXTHJznzGpAucOG?usp=share_link'>[Google Drive]</a> <a href='https://umn.box.com/s/1kgz8had6tvvzb5c0xhdfdky0xcjoq7m'>[Box]</a>
 
 The downloaded dataset would look as follows:
