@@ -5,7 +5,7 @@
   <a href="#introduction">Introduction</a> |
   <a href="#Overview">Overview</a> |
   <a href="#Download">Download</a> |
-  <a href="#`Annotation format`">Annotation format</a> |
+  <a href="#Annotation">Annotation format</a> |
   <a href="#License">License</a> 
 </p>
 
@@ -18,7 +18,7 @@
 ### Number of images per species
 
 <p>
-<table div align=left>
+<table div align=center>
   
 <tbody>
   <tr>
@@ -67,7 +67,9 @@ The downloaded dataset would look as follows:
 |── OpenApePose
     │-- annotations
     │   │-- oap_all.json
+    │   |-- oap_test.json
     │   |-- oap_train.json
+    │   |-- oap_val.json
     │-- data
     │   │-- 00001_oap.JPG
     │   │-- 00002_oap.jpg
