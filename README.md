@@ -60,7 +60,7 @@
 ## Download
 
 The dataset can be downloaded from
-<a href='https://drive.google.com/drive/folders/1bEXBHoPgmUPOWB898tXTHJznzGpAucOG?usp=share_link'>[Google Drive]</a> <a href='https://umn.box.com/s/1kgz8had6tvvzb5c0xhdfdky0xcjoq7m'>[Box]</a>
+<a href='https://drive.google.com/drive/folders/1-1jhlQ14WxRzZ5nHD6rW4d4sOjyeI9fi?usp=share_link'>[Google Drive]</a> <a href='https://umn.box.com/s/1kgz8had6tvvzb5c0xhdfdky0xcjoq7m'>[Box]</a>
 
 The downloaded dataset would look as follows:
 
