@@ -11,7 +11,7 @@
 
 ## Introduction
 
-<p align="left">This repository contians the <a href='https://www.biorxiv.org/'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
+<p align="left">This repository contians the <a href='https://www.biorxiv.org/'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
 
 ## Overview
 
