@@ -78,6 +78,7 @@ The downloaded dataset would look as follows:
     │-- models
     │   │-- hrnet_w48_oap_256x192_full.pth
 ```
+The instructions on using the HRNet-W48 model with MMPose will be added soon! In the meantime contact Nisarg Desai (desai054 at umn dot edu) if you would like to use it right away.
 
 ## Annotation format
 
