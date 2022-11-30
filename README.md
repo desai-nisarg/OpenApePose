@@ -80,7 +80,7 @@ The downloaded dataset would look as follows:
 
 ## Annotation format
 
-<p align="left">Our annotation format is inspired from other similar datasets such as <a href='https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s11263-022-01698-2&casa_token=kBSmHxBJToAAAAAA:mKpt4xKGExOp6471wnf2AB-bGka2o1A_rdih4VHg0yffT1sllepqI5c5R0nwtT1vt4bqiLKQdic5XnM'>OpenMonkeyPose</a>, <a href='https://cocodataset.org/#keypoints-2017'>COCO</a> etc. They are provided as separate JSON files for the full dataset, as well as train, validation, and test set splits used in the original <a href='https://www.biorxiv.org/'>OpenApePose</a> paper. The downloaded dataset should look as follows: </p>
+<p align="left">Our annotation format is inspired from other similar datasets such as <a href='https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s11263-022-01698-2&casa_token=kBSmHxBJToAAAAAA:mKpt4xKGExOp6471wnf2AB-bGka2o1A_rdih4VHg0yffT1sllepqI5c5R0nwtT1vt4bqiLKQdic5XnM'>OpenMonkeyPose</a>, <a href='https://cocodataset.org/#keypoints-2017'>COCO</a> etc. They are provided as separate JSON files for the full dataset, as well as train, validation, and test set splits used in the original <a href='https://www.biorxiv.org/'>OpenApePose</a> paper. The annotation JSONs have the following format: </p>
 
 ```text
 {
