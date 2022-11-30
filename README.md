@@ -75,7 +75,8 @@ The downloaded dataset would look as follows:
     │   │-- 00001_oap.JPG
     │   │-- 00002_oap.jpg
     │   │-- ...
-
+    │-- models
+    │   │-- hrnet_w48_oap_256x192_full.pth
 ```
 
 ## Annotation format
