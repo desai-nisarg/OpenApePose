@@ -62,7 +62,7 @@
 The dataset can be downloaded from
 <a href='https://drive.google.com/drive/folders/1-1jhlQ14WxRzZ5nHD6rW4d4sOjyeI9fi?usp=share_link'>[Google Drive]</a> 
 
-(We have had some issues with the image uploads, we're working on fixing them. The images would be ready to download by 12/9)
+(We have had some issues with the image uploads, we're working on fixing them. The images would be ready to download by 12/9. Apologies for the delay.)
 
 The downloaded dataset would look as follows:
 
