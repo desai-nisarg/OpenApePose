@@ -11,7 +11,7 @@
 
 ## Introduction
 
-<p align="left">This repository contians the <a href='https://www.biorxiv.org/'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
+<p align="left">This repository contians the <a href='https://arxiv.org/abs/2212.00741'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
 
 <p align="center">
 <img src="overview_images/collage.png" width="1300">
@@ -82,7 +82,7 @@ The instructions on using the HRNet-W48 model with MMPose will be added soon! In
 
 ## Annotation format
 
-<p align="left">Our annotation format is inspired from other similar datasets such as <a href='https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s11263-022-01698-2&casa_token=kBSmHxBJToAAAAAA:mKpt4xKGExOp6471wnf2AB-bGka2o1A_rdih4VHg0yffT1sllepqI5c5R0nwtT1vt4bqiLKQdic5XnM'>OpenMonkeyPose</a>, <a href='https://cocodataset.org/#keypoints-2017'>COCO</a> etc. They are provided as separate JSON files for the full dataset, as well as train, validation, and test set splits used in the original <a href='https://www.biorxiv.org/'>OpenApePose</a> paper. The annotation JSONs have the following format: </p>
+<p align="left">Our annotation format is inspired from other similar datasets such as <a href='https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s11263-022-01698-2&casa_token=kBSmHxBJToAAAAAA:mKpt4xKGExOp6471wnf2AB-bGka2o1A_rdih4VHg0yffT1sllepqI5c5R0nwtT1vt4bqiLKQdic5XnM'>OpenMonkeyPose</a>, <a href='https://cocodataset.org/#keypoints-2017'>COCO</a> etc. They are provided as separate JSON files for the full dataset, as well as train, validation, and test set splits used in the original <a href='https://arxiv.org/abs/2212.00741'>OpenApePose</a> paper. The annotation JSONs have the following format: </p>
 
 ```text
 {
@@ -116,5 +116,4 @@ The instructions on using the HRNet-W48 model with MMPose will be added soon! In
 The dataset follows CC-BY-4.0 license.
 
 ## Cite as
-Desai, N., Bala, P., Richardson, R., Raper, J., Zimmermann, J., & Hayden, B. (2022). OpenApePose: a database of annotated 
-ape photographs for pose estimation.
+Desai, N., Bala, P., Richardson, R., Raper, J., Zimmermann, J., & Hayden, B. (2022). OpenApePose: a database of annotated ape photographs for pose estimation. arXiv preprint arXiv:2212.00741.
