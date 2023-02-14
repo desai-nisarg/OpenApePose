@@ -8,7 +8,7 @@
   <a href="#Annotation-format">Annotation format</a> |
   <a href="#Usage-instructions">Usage instructions</a> |
   <a href="#License">License</a> |
-  <a href="#Cite-as">Cite as</a> |
+  <a href="#Cite-as">Cite as</a> 
 </p>
 
 ## Introduction
