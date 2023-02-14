@@ -6,7 +6,7 @@
   <a href="#Overview">Overview</a> |
   <a href="#Download">Download</a> |
   <a href="#Annotation-format">Annotation format</a> |
-  <a href="#Annotation-format">Usage instructions</a> |
+  <a href="#Usage-instructions">Usage instructions</a> |
   <a href="#License">License</a> 
 </p>
 
