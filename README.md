@@ -145,7 +145,7 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 
 <p align="left"> Paste the config file in (.../mmpose/configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/hrnet_w48_oap_256x192_full.py) </p>
 
-<p align="left"> Once the dataset class is registered and the above filed pasted in respective locations, you could use the trained model (hrnet_w48_oap_256x192_full.pth) for inference on your own photos/videos. Refer to <a href='https://mmpose.readthedocs.io/en/latest/demo.html'>the documentation on running demos</a> to get a sense of how to do this. </p>
+<p align="left"> Once the dataset class is registered and the above files pasted in respective locations, you could use the trained model (hrnet_w48_oap_256x192_full.pth) for inference on your own photos/videos. Refer to <a href='https://mmpose.readthedocs.io/en/latest/demo.html'>the documentation on running demos</a> to get a sense of how to do this. </p>
 
 ### Training new models with OpenApePose dataset
 
