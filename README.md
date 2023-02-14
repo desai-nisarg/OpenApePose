@@ -133,7 +133,7 @@ The downloaded dataset would look as follows:
 
 <p align="left"> Paste the included file (TopDownOAPDataset.py) in the following location in the MMPose directory on your computer: (.../mmpose/configs/_base_/datasets/TopDownOAPDataset.py) </p>
 
-<p align="left"> Then create a NEW 'oap' folder and paste the animal_oap_dataset.py file in the following location:  (.../mmpose/mmpose/datasets/datasets/oap/animal_oap_dataset.py) </p>
+<p align="left"> Then create a NEW folder, named 'oap', and paste the animal_oap_dataset.py file in the following location:  (.../mmpose/mmpose/datasets/datasets/oap/animal_oap_dataset.py) </p>
 
 <p align="left"> Update the __init__.py in ../mmpose/mmpose/datasets/datasets/ by replacing it with the included __init__.py </p>
 
@@ -150,7 +150,7 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 
 ### Training new models with OpenApePose dataset
 
-<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oac/images) folder, and annotations in the (.../mmpose/data/oac/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/get_started.html#train-a-model'>the documentation</a> for training models on a custom dataset. </p>
+<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/get_started.html#train-a-model'>the documentation</a> for training models on a custom dataset. </p>
 
 <p align="left"> However, you are not limited to using MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
 
