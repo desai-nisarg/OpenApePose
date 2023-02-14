@@ -6,6 +6,7 @@
   <a href="#Overview">Overview</a> |
   <a href="#Download">Download</a> |
   <a href="#Annotation-format">Annotation format</a> |
+  <a href="#Annotation-format">Usage instructions</a> |
   <a href="#License">License</a> 
 </p>
 
@@ -116,6 +117,42 @@ The instructions on using the HRNet-W48 model with MMPose will be added soon! In
 }
 ```
 <p align="left">Within each JSON file, all the annotations are included in the "data" tag. Each annotation contains the following tags: "file", "species", "bbox", "landmarks", and "visibility". "file" specifies the name of the file in the images folder. "species" specifies the species of the individual ape in the bounding box that is annotated. "bbox" specifies a bounding box in the image that contains the annotated ape. The bounding box format used is [x,y,width,height] where [x,y] specifies the x and y corridnate of the top-left of the bounding box, width specifies the width of the bounding box in pixels, and height specifies the height of the bounding box in pixels. "landmarks" specifies the x and y coordinates of the 16 landmarks in the order specified above. "visibility" specifies whether a given landmark is occluded (0) or visible (1).
+
+## Usage instructions
+
+<p align="left"> The included HRNet-W48 PyTorch model is trained using the pipelines and tools available in <a href='https://mmpose.readthedocs.io/en/latest/'>MMPose</a>. </p>
+
+#### Installation
+
+<p align="left"> Download and install mmpose using the <a href='https://mmpose.readthedocs.io/en/latest/install.html#installation'>installation instructions</a> to be able to use the package. </p>
+
+<p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/tutorials/0_config.html'>tutorial 0</a> and <a href='https://mmpose.readthedocs.io/en/latest/tutorials/2_new_dataset.html'>tutorial 2</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (tutorial 2).
+
+#### Using the included code with MMPose
+
+<p align="left"> We have included the necessary code for defining and registering a custom dataset class for the OpenApePose dataset. </p>
+
+<p align="left"> Paste the included file (TopDownOAPDataset.py) in the following location in the MMPose directory on your computer: (.../mmpose/configs/_base_/datasets/TopDownOAPDataset.py) </p>
+
+<p align="left"> Then create a NEW 'oap' folder and paste the animal_oap_dataset.py file in the following location:  (.../mmpose/mmpose/datasets/datasets/oap/animal_oap_dataset.py) </p>
+
+<p align="left"> Update the __init__.py in ../mmpose/mmpose/datasets/datasets/ by replacing it with the included __init__.py </p>
+
+<p align="left"> Create a new __init__.py file in the following location: .../mmpose/mmpose/datasets/datasets/oap/. Then, add the following code in this __init__.py file to ensure that the dataset class is registered properly for training and inference: 
+from .animal_oap_dataset import TopDownOAPDataset
+__all__ = [ 'TopDownOAPDataset'] </p>
+
+#### Inference with the included model
+
+<p align="left"> Paste the config file in (.../mmpose/configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/hrnet_w48_oap_256x192_full.py) </p>
+
+<p align="left"> Once the dataset class is registered and the above filed pasted in respective locations, you could use the trained model (hrnet_w48_oap_256x192_full.pth) for inference on your own photos/videos. Refer to <a href='https://mmpose.readthedocs.io/en/latest/demo.html'>the documentation on running demos</a> to get a sense of how to do this. </p>
+
+#### Training new models with OpenApePose dataset
+
+<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oac/images) folder, and annotations in the (.../mmpose/data/oac/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/get_started.html#train-a-model>the documentation</a> for training models on a custom dataset. </p>
+
+<p align="left"> However, you are not limited to using MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
 
 ## License
 
