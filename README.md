@@ -64,7 +64,7 @@
 The dataset can be downloaded from
 <a href='https://drive.google.com/drive/folders/1-1jhlQ14WxRzZ5nHD6rW4d4sOjyeI9fi?usp=share_link'>[Google Drive]</a> 
 
-The downloaded folder would looks as follows:
+The downloaded folder looks as follows:
 
 ```text
 |── OpenApePose
