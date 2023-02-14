@@ -136,7 +136,8 @@ The downloaded dataset would look as follows:
 
 <p align="left"> Update the __init__.py in ../mmpose/mmpose/datasets/datasets/ by replacing it with the included __init__.py </p>
 
-<p align="left"> Create a new __init__.py file in the following location: .../mmpose/mmpose/datasets/datasets/oap/. Then, add the following code in this __init__.py file to ensure that the dataset class is registered properly for training and inference:<br /> 
+<p align="left"> Create a new __init__.py file in the following location: .../mmpose/mmpose/datasets/datasets/oap/. Then, add the following code in this __init__.py file to ensure that the dataset class is registered properly for training and inference:<br />
+<br />
 from .animal_oap_dataset import TopDownOAPDataset<br />
 __all__ = [ 'TopDownOAPDataset'] </p>
 
