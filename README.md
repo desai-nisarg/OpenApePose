@@ -123,9 +123,9 @@ The downloaded folder looks as follows:
 
 ### Installation
 
-<p align="left"> Download and install mmpose using the <a href='https://mmpose.readthedocs.io/en/latest/install.html#installation'>installation instructions</a> to be able to use the package. </p>
+<p align="left"> Download and install mmpose using the <a href='https://mmpose.readthedocs.io/en/latest/installation.html'>installation instructions</a> to be able to use the package. </p>
 
-<p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/tutorials/0_config.html'>tutorial 0</a> and <a href='https://mmpose.readthedocs.io/en/latest/tutorials/2_new_dataset.html'>tutorial 2</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (tutorial 2).
+<p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/user_guides/configs.html'>about configs</a> and <a href='https://mmpose.readthedocs.io/en/latest/user_guides/prepare_datasets.html'>about working with datasets</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (tutorial 2).
 
 ### Using the included code with MMPose
 
