@@ -125,7 +125,7 @@ The downloaded folder looks as follows:
 
 <p align="left"> Download and install mmpose using the <a href='https://mmpose.readthedocs.io/en/latest/installation.html'>installation instructions</a> to be able to use the package. </p>
 
-<p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/user_guides/configs.html'>about configs</a> and <a href='https://mmpose.readthedocs.io/en/latest/user_guides/prepare_datasets.html'>about working with datasets</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (tutorial 2).
+<p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/user_guides/configs.html'>about configs</a> and <a href='https://mmpose.readthedocs.io/en/latest/user_guides/prepare_datasets.html'>about working with datasets</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (refer to the usage guide on custom datasets for more information).
 
 ### Using the included code with MMPose
 
@@ -146,11 +146,11 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 
 <p align="left"> Paste the config file in (.../mmpose/configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/hrnet_w48_oap_256x192_full.py) </p>
 
-<p align="left"> Once the dataset class is registered and the above files pasted in respective locations, you could use the trained model (hrnet_w48_oap_256x192_full.pth) for inference on your own photos/videos. Refer to <a href='https://mmpose.readthedocs.io/en/latest/demo.html'>the documentation on running demos</a> to get a sense of how to do this. </p>
+<p align="left"> Once the dataset class is registered and the above files pasted in respective locations, you could use the trained model (hrnet_w48_oap_256x192_full.pth) for inference on your own photos/videos. Refer to <a href='https://mmpose.readthedocs.io/en/latest/demos.html'>the documentation on running demos</a> to get a sense of how to do this. </p>
 
 ### Training new models with OpenApePose dataset
 
-<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/get_started.html#train-a-model'>the documentation</a> for training models on a custom dataset. </p>
+<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/user_guides/train_and_test.html'>the documentation</a> for training models on a custom dataset. </p>
 
 <p align="left"> However, you are not limited to using MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
 
