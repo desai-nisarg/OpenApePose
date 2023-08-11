@@ -62,7 +62,8 @@
 ## Download
 
 The dataset can be downloaded from
-<a href='https://drive.google.com/drive/folders/1-1jhlQ14WxRzZ5nHD6rW4d4sOjyeI9fi?usp=share_link'>[Google Drive]</a> 
+<a href='https://drive.google.com/drive/folders/1UF2Wys2JwA4W1kGIiJIvvAZXZWrnzcBk?usp=share_link'>[Google Drive]</a> 
+<a href='https://datadryad.org/stash/share/yIccvg7QBQ_UeRMZEE3lyHasDNBiBg61y8oblJDOnEI'>[Dryad]</a>
 
 The downloaded folder looks as follows:
 
