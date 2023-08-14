@@ -124,7 +124,13 @@ The downloaded folder looks as follows:
 
 ### Installation
 
-<p align="left"> Download and install mmpose using the <a href='https://mmpose.readthedocs.io/en/latest/installation.html'>installation instructions</a> to be able to use the package. </p>
+<p align="left"> For using the provided model, you may use the included yml file or the requirements.txt file to match the specific versions of MMPose and other packages used. For example, on linux
+````bash
+  conda env create -f OpenApePose.yml
+````
+On other platforms, you would need to refer to the included requirements.txt and install the corresponding packages.
+
+<p align="left"> Or you can download and install mmpose v0.26.0 using the <a href='https://mmpose.readthedocs.io/en/latest/installation.html'>installation instructions</a> to be able to use the package. </p>
 
 <p align="left"> Refer to the documentation, in particular <a href='https://mmpose.readthedocs.io/en/latest/user_guides/configs.html'>about configs</a> and <a href='https://mmpose.readthedocs.io/en/latest/user_guides/prepare_datasets.html'>about working with datasets</a> to get a sense of how to use the tools in MMPose for training/inference using PyTorch models on a custom dataset. For using the model for inference on your photo/video, you would need to register the OpenApePose dataset class (refer to the usage guide on custom datasets for more information).
 
@@ -153,7 +159,7 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 
 <p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/user_guides/train_and_test.html'>the documentation</a> for training models on a custom dataset. </p>
 
-<p align="left"> However, you are not limited to using MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
+<p align="left"> However, you are not limited to using any specific versions of MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
 
 ## License
 
