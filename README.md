@@ -2,7 +2,7 @@
 </h1> 
 
 <p align="center">
-  <a href="#introduction">Introduction</a> |
+  <a href="#Introduction">Introduction</a> |
   <a href="#Overview">Overview</a> |
   <a href="#Download">Download</a> |
   <a href="#Annotation-format">Annotation format</a> |
