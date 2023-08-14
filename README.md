@@ -124,10 +124,11 @@ The downloaded folder looks as follows:
 
 ### Installation
 
-<p align="left"> For using the provided model, you may use the included yml file or the requirements.txt file to match the specific versions of MMPose and other packages used. For example, on linux
+<p align="left"> For using the provided model, you may use the included yml file or the requirements.txt file to match the specific versions of MMPose and other packages used. For example, on linux:
 ````bash
-  conda env create -f OpenApePose.yml
+conda env create -f OpenApePose.yml
 ````
+
 On other platforms, you would need to refer to the included requirements.txt and install the corresponding packages.
 
 <p align="left"> Or you can download and install mmpose v0.26.0 using the <a href='https://mmpose.readthedocs.io/en/latest/installation.html'>installation instructions</a> to be able to use the package. </p>
