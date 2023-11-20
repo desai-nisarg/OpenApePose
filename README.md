@@ -13,7 +13,7 @@
 
 ## Introduction
 
-<p align="left">This repository contians the <a href='https://arxiv.org/abs/2212.00741'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
+<p align="left">This repository contians the <a href='https://elifesciences.org/reviewed-preprints/86873'>OpenApePose</a> dataset. OpenApePose contains 71,868 photographs of six ape species in naturalistic contexts. Because of their close relationship with humans, non-human apes (chimpanzees, bonobos, gorillas, orangutans, and gibbons, including siamangs) are of great scientific interest. The goal of understanding their complex behavior would be greatly advanced by the ability to perform video-based behavioral tracking. Tracking, however, requires high-quality annotated datasets of ape photographs. Here we present a new public dataset of 71,868 photographs, annotated with 16 body landmarks, of six ape species in naturalistic contexts. </p>
 
 <p align="center">
 <img src="overview_images/collage.png" width="1300">
@@ -168,4 +168,5 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 The dataset follows CC-BY-4.0 license.
 
 ## Cite as
-Desai, N., Bala, P., Richardson, R., Raper, J., Zimmermann, J., & Hayden, B. (2022). OpenApePose: a database of annotated ape photographs for pose estimation. arXiv preprint arXiv:2212.00741.
+Desai Nisarg, Bala Praneet, Richardson Rebecca, Raper Jessica, Zimmermann Jan, Hayden Benjamin (2023) OpenApePose: a database of annotated ape photographs for pose estimation eLife 12:RP86873 
+https://doi.org/10.7554/eLife.86873.2
