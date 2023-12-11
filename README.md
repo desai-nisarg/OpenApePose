@@ -165,7 +165,7 @@ __all__ = [ 'TopDownOAPDataset'] </p>
 
 ## License
 
-The dataset follows CC-BY-4.0 license.
+The dataset follows MIT license.
 
 ## Cite as
 Desai Nisarg, Bala Praneet, Richardson Rebecca, Raper Jessica, Zimmermann Jan, Hayden Benjamin (2023) OpenApePose: a database of annotated ape photographs for pose estimation eLife 12:RP86873 
