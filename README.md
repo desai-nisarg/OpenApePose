@@ -164,7 +164,7 @@ __all__ = [ 'TopDownOAPDataset']
 
 ### Training new models with OpenApePose dataset
 
-<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored it in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/user_guides/train_and_test.html'>the documentation</a> for training models on a custom dataset. </p>
+<p align="left"> You can train new models using the OAP dataset with MMPose once the dataset class is registered, and you have downloaded the images and stored them in the (.../mmpose/data/oap/images) folder, and annotations in the (.../mmpose/data/oap/annotations) folder. Refer to <a href='https://mmpose.readthedocs.io/en/latest/user_guides/train_and_test.html'>the documentation</a> for training models on a custom dataset. </p>
 
 <p align="left"> However, you are not limited to using any specific versions of MMPose as the OpenApePose dataset and annotations can be transformed to work with many different packages. </p>
 
