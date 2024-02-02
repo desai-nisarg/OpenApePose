@@ -148,10 +148,13 @@ On other platforms, you would need to refer to the included requirements.txt and
 
 <p align="left"> Create a new __init__.py file in the following location: .../mmpose/mmpose/datasets/datasets/oap/. Then, add the following code in this __init__.py file to ensure that the dataset class is registered properly for training and inference:<br />
 <br />
-  ```
-  from .animal_oap_dataset import TopDownOAPDataset
-  __all__ = [ 'TopDownOAPDataset']
-  ``` </p>
+</p>
+
+```python
+from .animal_oap_dataset import TopDownOAPDataset
+__all__ = [ 'TopDownOAPDataset']
+``` 
+
 
 ### Inference with the included model
 
